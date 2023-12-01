@@ -1,0 +1,12 @@
+Names: Shardul Dhongade, Sriniketh Akkineni
+PID's: shardul21, sriakkineni2002
+
+The GPT-generated program will print a reminder for when the stand up meeting starts
+as well as schedules a stand up meeting. 
+
+One issue is regarding the meeting_time variable, which has to be reset almost everytime the program is ran. Currently, it has to be set one minute ahead of when you run it, 
+at which point it then runs after compiling. This could be fixed by using a Date object that finds the exact time, so that the program will run immediately without constant changes required.
+
+Team members are also set in a predefined list. This would need to be fixed such that new team members can be added and removed. 
+
+Overall, the bot seems to handle scheduling tasks well, but further integration with team calendars and updating team members would definitely be useful.
